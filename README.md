@@ -51,6 +51,20 @@ Finalmente, el dataset fue segemtando en dos partes (80/20), una de entrenamient
 
 ### Modelo
 
+Para esta aplicación hemos utilizado el **modelo VGG19**, que ha sido entrenado sobre el dataset **ImageNet**. Este modelo consiste en un **encoder convolucional** constituido por 16 capas convolucionales y 3 capas densas (dos de ellas fully connected y una softmax). Además cuenta con cinco capes de max pooling.
+
+![Resultado de imagen de vgg19](https://www.researchgate.net/profile/Clifford_Yang/publication/325137356/figure/fig2/AS:670371271413777@1536840374533/llustration-of-the-network-architecture-of-VGG-19-model-conv-means-convolution-FC-means.jpg)
+
+El dataset sobre el que está entrenado este modelo  no cuenta con imágenes de manos, así que para que el modelo funcionase bien empleamos la técnica del **fine tuning**  y congelamos las 6 primeras capas para reentrenar el resto. También le añadimos 4 capas densas siendo la ultima softmax.
+
+El añadirle complejidad al modelo con estos cambios permitieron que alcanzáramos unos buenos resultados. Como hiperparámetros cabe destacar:
+
+ - SGD (stochastic gradient descent) como **optimizador**
+ - 0.02 de **learning rate**
+ - **Bach size** de 32 para el modelo de los números y 64 para las letras
+ 
+ 
+
 ### Aplicación 🤓
 
 _¿En qué consiste la aplicación?_
