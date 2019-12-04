@@ -49,7 +49,7 @@ En ambos casos se efectuó una aumentación de datos que incluía:
 Finalmente, el dataset fue segemtando en dos partes (80/20), una de entrenamiento y otra de validación para poder detectar si el modelo se sobreajusta a los datos. 
 
 
-### Modelo 
+### Modelo  
 
 Para esta aplicación hemos utilizado el **modelo VGG19**, que ha sido entrenado sobre el dataset **ImageNet**. Este modelo consiste en un **encoder convolucional** constituido por 16 capas convolucionales y 3 capas densas (dos de ellas fully connected y una softmax). Además cuenta con cinco capes de max pooling.
 
