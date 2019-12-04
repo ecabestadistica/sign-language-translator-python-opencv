@@ -30,7 +30,7 @@ El datset utlizado para entrenar el modelo de reconocimiento de letras está com
 * "ASL Alphabet" colgado por Akash en Kaggle (https://www.kaggle.com/grassknoted/asl-alphabet)
 * "ASL Alphabet Test" colgado por Dan Rasband también en Kaggle (https://www.kaggle.com/danrasband/asl-alphabet-test)
 * Dataset creado específicamente para este proyecto 
-| ![A](https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_0020.JPG) | ![G](https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_0640.JPG) | ![R](https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_1482.JPG) |
+![A](https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_0020.JPG) ![G](https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_0640.JPG) ![R](https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_1482.JPG)
 
 
 Para entrenar el modelo de reconocimiento de números se utilzó:
