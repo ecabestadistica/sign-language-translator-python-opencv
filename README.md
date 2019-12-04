@@ -29,7 +29,7 @@ python segment_modelmiguelnumber.py
 El datset utlizado para entrenar el modelo de reconocimiento de letras está compuesto por tres datasets distintos, los cuales contienen fotos de las diferentes letras del alfabeto de la lengua de signos americana:
 * "ASL Alphabet" colgado por Akash en Kaggle (https://www.kaggle.com/grassknoted/asl-alphabet)
 * "ASL Alphabet Test" colgado por Dan Rasband también en Kaggle (https://www.kaggle.com/danrasband/asl-alphabet-test)
-* Dataset creado específicamente para este proyecto 
+* Dataset creado específicamente para este proyecto (https://www.kaggle.com/jordiviader/american-sign-language-alphabet-static)
 <p float="left">
   <img src="https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_0020.JPG" width="250" />
   <img src="https://github.com/ecabestadistica/sign-language-translator-python-opencv/blob/master/IMG_0640.JPG" width="250" /> 
