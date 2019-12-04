@@ -26,7 +26,7 @@ python segment_modelmiguelnumber.py
 ```
 
 ### Datos 🖼
-El datset utlizado para entrenar el modelo de reconocimiento de letras está compuesto por tres datasets distintos representando cada una de las letras de la lengua de signos americana:
+El datset utlizado para entrenar el modelo de reconocimiento de letras está compuesto por tres datasets distintos, los cuales contienen fotos de las diferentes letras del alfabeto de la lengua de signos americana:
 * "ASL Alphabet" colgado por Akash en Kaggle (https://www.kaggle.com/grassknoted/asl-alphabet)
 * "ASL Alphabet Test" colgado por Dan Rasband también en Kaggle (https://www.kaggle.com/danrasband/asl-alphabet-test)
 * Dataset creado específicamente para este proyecto 
