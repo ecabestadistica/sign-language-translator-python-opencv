@@ -39,7 +39,15 @@ El datset utlizado para entrenar el modelo de reconocimiento de letras está com
 Para entrenar el modelo de reconocimiento de números se utilzó:
 * "Sign Language Digits Dataset" colgado por Arda Mavi en Kaggle (https://www.kaggle.com/ardamavi/sign-language-digits-dataset)
 
-En ambos casos se efectuó una aumentación de datos que incluía: 
+En ambos casos se efectuó una aumentación de datos que incluía:
+* Normalización de los datos
+* Transvecciones
+* Ampliaciones
+* Desplazamientos laterales y verticales
+* Modificación de brillo
+
+Finalmente, el dataset fue segemtando en dos partes (80/20), una de entrenamiento y otra de validación para poder detectar si el modelo se sobreajuista a los datos. 
+
 
 ### Modelo
 
