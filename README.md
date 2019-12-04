@@ -46,7 +46,7 @@ En ambos casos se efectuó una aumentación de datos que incluía:
 * Desplazamientos laterales y verticales
 * Modificación de brillo
 
-Finalmente, el dataset fue segemtando en dos partes (80/20), una de entrenamiento y otra de validación para poder detectar si el modelo se sobreajuista a los datos. 
+Finalmente, el dataset fue segemtando en dos partes (80/20), una de entrenamiento y otra de validación para poder detectar si el modelo se sobreajusta a los datos. 
 
 
 ### Modelo
